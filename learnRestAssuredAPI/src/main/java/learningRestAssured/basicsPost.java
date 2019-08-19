@@ -40,6 +40,9 @@ public class basicsPost {
                 body("status",equalTo("OK"));
 
 
+    //Create a Place and Delete it. To delete, we need to grab the place_id and place it in the delete place request.
+
+
 
     }
 
