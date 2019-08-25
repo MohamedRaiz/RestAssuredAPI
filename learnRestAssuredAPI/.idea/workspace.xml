@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd431962-432b-4a52-83cd-b52f9e6590c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learningRestAssured/basicsPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learningRestAssured/basicsPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learningRestAssured/basics4XMLResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learningRestAssured/basics4XMLResponse.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,20 +18,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            <state relative-caret-position="163">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basics.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basics5MoreOnExtractingJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="180">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basics4XMLResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="39" selection-end-column="45" />
+            <state relative-caret-position="15">
+              <caret line="13" selection-start-line="13" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/files/ReusableMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPostPart2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+            <state relative-caret-position="165">
+              <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,10 +104,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/learnRest.java" />
         <option value="$PROJECT_DIR$/src/main/java/basics.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learningRestAssured/basics.java" />
         <option value="$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/files/env.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/files/resources.java" />
         <option value="$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPostPart2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/files/payload.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/files/UsableMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learningRestAssured/basics4XMLResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/files/ReusableMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learningRestAssured/basics5MoreOnExtractingJson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learningRestAssured/basics.java" />
       </list>
     </option>
   </component>
@@ -142,6 +172,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnRestAssuredAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnRestAssuredAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learningRestAssured" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -151,11 +189,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566224161969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566709179342" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2862069" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learningRestAssured" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,9 +215,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.basicsPostPart2.postAndDeleteData">
-    <configuration name="basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learningRestAssured.basics" />
+  <component name="RunManager" selected="TestNG.basics5MoreOnExtractingJson.Test5">
+    <configuration name="basics4XMLResponse.postData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="learnRestAssuredAPI" />
       <extension name="coverage">
         <pattern>
@@ -179,6 +224,48 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="learningRestAssured" />
+      <option name="MAIN_CLASS_NAME" value="learningRestAssured.basics4XMLResponse" />
+      <option name="METHOD_NAME" value="postData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="basics5MoreOnExtractingJson.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="learnRestAssuredAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learningRestAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learningRestAssured" />
+      <option name="MAIN_CLASS_NAME" value="learningRestAssured.basics5MoreOnExtractingJson" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="basics5MoreOnExtractingJson.Test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="learnRestAssuredAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learningRestAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learningRestAssured" />
+      <option name="MAIN_CLASS_NAME" value="learningRestAssured.basics5MoreOnExtractingJson" />
+      <option name="METHOD_NAME" value="Test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,9 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.basicsPostPart2.postAndDeleteData" />
+        <item itemvalue="TestNG.basics5MoreOnExtractingJson.Test5" />
         <item itemvalue="TestNG.basics.Test1" />
-        <item itemvalue="Application.basics" />
+        <item itemvalue="TestNG.basics5MoreOnExtractingJson.Test1" />
+        <item itemvalue="TestNG.basics4XMLResponse.postData" />
+        <item itemvalue="TestNG.basicsPostPart2.postAndDeleteData" />
       </list>
     </recent_temporary>
   </component>
@@ -241,35 +330,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="basics_Test1 - 2019.08.18 at 13h 21m 16s.xml">
+    <history-entry file="basics4XMLResponse_postData - 2019.08.24 at 13h 08m 32s.xml">
+      <configuration name="basics4XMLResponse.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="basics4XMLResponse_postData - 2019.08.24 at 13h 08m 54s.xml">
+      <configuration name="basics4XMLResponse.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="basics4XMLResponse_postData - 2019.08.24 at 13h 17m 05s.xml">
+      <configuration name="basics4XMLResponse.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="basics4XMLResponse_postData - 2019.08.24 at 13h 27m 12s.xml">
+      <configuration name="basics4XMLResponse.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="basics4XMLResponse_postData - 2019.08.24 at 13h 33m 14s.xml">
+      <configuration name="basics4XMLResponse.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="basics_Test1 - 2019.08.25 at 12h 06m 56s.xml">
       <configuration name="basics.Test1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="basics_Test1 - 2019.08.18 at 13h 21m 30s.xml">
+    <history-entry file="basics_Test1 - 2019.08.25 at 12h 13m 53s.xml">
       <configuration name="basics.Test1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="basics_Test1 - 2019.08.18 at 13h 28m 09s.xml">
+    <history-entry file="basics5MoreOnExtractingJson_Test1 - 2019.08.25 at 12h 14m 04s.xml">
+      <configuration name="basics5MoreOnExtractingJson.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="basics5MoreOnExtractingJson_Test1 - 2019.08.25 at 12h 27m 09s.xml">
+      <configuration name="basics5MoreOnExtractingJson.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="basics_Test1 - 2019.08.25 at 12h 55m 33s.xml">
       <configuration name="basics.Test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="basics_Test1 - 2019.08.18 at 13h 29m 18s.xml">
-      <configuration name="basics.Test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="basics_Test1 - 2019.08.18 at 14h 56m 13s.xml">
-      <configuration name="basics.Test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="basics_Test1 - 2019.08.18 at 15h 29m 46s.xml">
-      <configuration name="basics.Test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="basicsPostPart2_postAndDeleteData - 2019.08.18 at 15h 30m 47s.xml">
-      <configuration name="basicsPostPart2.postAndDeleteData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="basicsPostPart2_postAndDeleteData - 2019.08.18 at 15h 45m 49s.xml">
-      <configuration name="basicsPostPart2.postAndDeleteData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="basicsPostPart2_postAndDeleteData - 2019.08.18 at 15h 50m 38s.xml">
-      <configuration name="basicsPostPart2.postAndDeleteData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="basicsPostPart2_postAndDeleteData - 2019.08.19 at 22h 07m 43s.xml">
-      <configuration name="basicsPostPart2.postAndDeleteData" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -285,7 +374,7 @@
       <window_info id="Capture Tool" />
       <window_info id="Job Explorer" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Terminal" weight="0.32961586" />
@@ -295,7 +384,7 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51425034" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36802974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,37 +407,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/files/env.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPost.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/files/resources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="39" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPostPart2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/files/payload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basicsPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/files/ReusableMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basics4XMLResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basics5MoreOnExtractingJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learningRestAssured/basics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -412,6 +549,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2862069" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
