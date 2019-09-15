@@ -35,7 +35,27 @@ public class DynamicJson {
 
         // This is to just delete the book back so the test will always pass and book will not be kept in the library.
 
+    }
 
+    @Test
+    public void DeleteBook() throws IOException {
+
+        //baseUrl or Hostname:
+        RestAssured.baseURI = "http://216.10.245.166";
+        Response res;
+        res = given().
+                header("Content-Type", "application/json").
+                body("{\n" +
+                        "    \"ID\": \"qwerty123\"\n" +
+                        "}").
+                when().
+                post("/Library/DeleteBook.php").
+                then().assertThat().statusCode(200).
+                extract().response();
+
+        JsonPath js = ReusableMethods.rawToJSON(res);
+        String id = js.get("msg");
+        System.out.println(id);
     }
 
     public static String generateStringFromResource(String path) throws IOException {
