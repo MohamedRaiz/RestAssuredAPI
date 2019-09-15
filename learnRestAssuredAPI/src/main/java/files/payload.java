@@ -1,6 +1,6 @@
 package files;
 
-public class payload  {
+public class payload {
 
     public static String getPostData() {
 
@@ -21,5 +21,17 @@ public class payload  {
                 "    \"language\": \"French-IN\"\n" +
                 "}";
         return bodyContent;
+    }
+
+    public static String addBook(String isbnNumber, String aisleNumber) {
+
+        String payload =
+                "{\n" +
+                        "   \"name\": \"Learn Appium Automation with Java\",\n" +
+                        "   \"isbn\": \"" + isbnNumber + "\",\n" +
+                        "   \"aisle\": \"" + aisleNumber + "\",\n" +
+                        "   \"author\": \"John foe\"\n" +
+                        "}";
+        return payload;
     }
 }
