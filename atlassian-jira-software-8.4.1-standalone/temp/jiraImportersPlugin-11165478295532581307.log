@@ -1,0 +1,68 @@
+2019-09-22 22:33:41,113 INFO - Import started by mohamed_raiz using com.atlassian.jira.plugins.importer.sample.SampleDataBean
+2019-09-22 22:33:41,123 INFO - ------------------------------
+2019-09-22 22:33:41,124 INFO - Importing: Users
+2019-09-22 22:33:41,124 INFO - ------------------------------
+2019-09-22 22:33:41,124 INFO - Only new items will be imported
+2019-09-22 22:33:41,125 INFO - 0 users associated with import. All of them imported as inactive, this can be changed after import in User Access step.
+2019-09-22 22:33:41,125 INFO - ------------------------------
+2019-09-22 22:33:41,125 INFO - Finished Importing : Users
+2019-09-22 22:33:41,125 INFO - ------------------------------
+2019-09-22 22:33:41,125 INFO - 0 users successfully created.
+2019-09-22 22:33:41,125 INFO - Retrieving projects...
+2019-09-22 22:33:41,126 INFO - Project ExternalProject{id='null', key='ASD', externalName='null', name='asd'} exists and found correctly.
+2019-09-22 22:33:41,149 INFO - ------------------------------
+2019-09-22 22:33:41,150 INFO - Importing: Versions
+2019-09-22 22:33:41,150 INFO - ------------------------------
+2019-09-22 22:33:41,150 INFO - Only new items will be imported
+2019-09-22 22:33:41,154 INFO - Importing version Version 1.0
+2019-09-22 22:33:41,177 INFO - Importing version Version 2.0
+2019-09-22 22:33:41,179 INFO - Importing version Version 3.0
+2019-09-22 22:33:41,180 INFO - ------------------------------
+2019-09-22 22:33:41,180 INFO - Finished Importing : Versions
+2019-09-22 22:33:41,180 INFO - ------------------------------
+2019-09-22 22:33:41,180 INFO - ------------------------------
+2019-09-22 22:33:41,180 INFO - Importing: Components
+2019-09-22 22:33:41,180 INFO - ------------------------------
+2019-09-22 22:33:41,180 INFO - Only new items will be imported
+2019-09-22 22:33:41,180 INFO - ------------------------------
+2019-09-22 22:33:41,180 INFO - Finished Importing : Components
+2019-09-22 22:33:41,180 INFO - ------------------------------
+2019-09-22 22:33:41,180 INFO - Retrieving custom fields...
+2019-09-22 22:33:41,181 INFO - ------------------------------
+2019-09-22 22:33:41,181 INFO - Importing: Issues
+2019-09-22 22:33:41,181 INFO - ------------------------------
+2019-09-22 22:33:41,181 INFO - Only new items will be imported
+2019-09-22 22:33:41,182 INFO - Importing issue: [externalId='null', summary='As an Agile team, I'd like to learn about Scrum >> Click the "ASD-1" link at the left of this row to see detail in the Description tab on the right']
+2019-09-22 22:33:41,605 INFO - Importing issue: [externalId='null', summary='As a product owner, I'd like to express work in terms of actual user problems, aka User Stories, and place them in the backlog >> Try creating a new story with the "+ Create Issue" button (top right of screen)']
+2019-09-22 22:33:41,643 INFO - Importing issue: [externalId='null', summary='As a product owner, I'd like to rank stories in the backlog so I can communicate the proposed implementation order >> Try dragging this story up above the previous story']
+2019-09-22 22:33:41,667 INFO - Importing issue: [externalId='null', summary='As a team, I'd like to estimate the effort of a story in Story Points so we can understand the work remaining >> Try setting the Story Points for this story in the "Estimate" field']
+2019-09-22 22:33:41,693 INFO - Importing issue: [externalId='null', summary='As a team, I'd like to commit to a set of stories to be completed in a sprint (or iteration) >> Click "Create Sprint" then drag the footer down to select issues for a sprint (you can't start a sprint at the moment because one is already active)']
+2019-09-22 22:33:41,716 INFO - Importing issue: [externalId='null', summary='As a scrum master, I'd like to break stories down into tasks we can track during the sprint >> Try creating a task by clicking the Sub-Tasks tab in the Detail View on the right']
+2019-09-22 22:33:41,794 INFO - Importing issue: [externalId='null', summary='As a product owner, I'd like to include bugs, tasks and other issue types in my backlog >> Bugs like this one will also appear in your backlog but they are not normally estimated']
+2019-09-22 22:33:41,819 INFO - Importing issue: [externalId='null', summary='As a developer, I'd like to update story status during the sprint >> Click the Active sprints link at the top right of the screen to go to the Active sprints where the current Sprint's items can be updated']
+2019-09-22 22:33:41,838 INFO - Importing issue: [externalId='null', summary='As a developer, I can update story and task status with drag and drop (click the triangle at far left of this story to show sub-tasks)']
+2019-09-22 22:33:42,225 INFO - Importing issue: [externalId='null', summary='As a developer, I can update details on an item using the Detail View >> Click the "ASD-13" link at the top of this card to open the detail view']
+2019-09-22 22:33:42,328 INFO - Importing issue: [externalId='null', summary='As a user, I can find important items on the board by using the customisable "Quick Filters" above >> Try clicking the "Only My Issues" Quick Filter above']
+2019-09-22 22:33:42,445 INFO - Importing issue: [externalId='null', summary='As a scrum master, I can see the progress of a sprint via the Burndown Chart >> Click "Reports" to view the Burndown Chart']
+2019-09-22 22:33:42,602 INFO - Importing issue: [externalId='null', summary='As a team, we can finish the sprint by clicking the cog icon next to the sprint name above the "To Do" column then selecting "Complete Sprint" >> Try closing this sprint now']
+2019-09-22 22:33:42,705 INFO - Importing issue: [externalId='null', summary='Instructions for deleting this sample board and project are in the description for this issue >> Click the "ASD-17" link and read the description tab of the detail view for more']
+2019-09-22 22:33:42,776 INFO - Importing issue: [externalId='null', summary='As a user, I'd like a historical story to show in reports']
+2019-09-22 22:33:42,843 INFO - Importing issue: [externalId='null', summary='As a user, I'd like a historical story to show in reports']
+2019-09-22 22:33:42,915 INFO - Importing issue: [externalId='null', summary='As a user, I'd like a historical story to show in reports']
+2019-09-22 22:33:42,995 INFO - Importing issue: [externalId='null', summary='As a user, I'd like a historical story to show in reports']
+2019-09-22 22:33:43,131 INFO - Importing issue: [externalId='null', summary='As a user, I'd like a historical story to show in reports']
+2019-09-22 22:33:43,300 INFO - Importing issue: [externalId='null', summary='As a user, I'd like a historical story to show in reports']
+2019-09-22 22:33:43,369 INFO - Reindexing last 23 issues imported ...
+2019-09-22 22:33:43,529 INFO - Reindexing took 157 ms.
+2019-09-22 22:33:43,529 INFO - 20 issues successfully created
+2019-09-22 22:33:43,529 INFO - ------------------------------
+2019-09-22 22:33:43,529 INFO - Finished Importing : Issues
+2019-09-22 22:33:43,529 INFO - ------------------------------
+2019-09-22 22:33:43,529 INFO - ------------------------------
+2019-09-22 22:33:43,529 INFO - Importing: Issue Links & Subtasks
+2019-09-22 22:33:43,529 INFO - ------------------------------
+2019-09-22 22:33:43,529 INFO - Only new items will be imported
+2019-09-22 22:33:43,529 INFO - ------------------------------
+2019-09-22 22:33:43,529 INFO - Finished Importing : Issue Links & Subtasks
+2019-09-22 22:33:43,529 INFO - ------------------------------
+2019-09-22 22:33:43,529 INFO - No issues need to be reindexed.
