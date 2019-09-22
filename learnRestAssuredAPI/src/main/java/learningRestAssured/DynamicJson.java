@@ -66,7 +66,6 @@ public class DynamicJson {
       return new Object[][] { { "qazwsx", "234" } , { "thwe","2734" } , { "ins","444" } };
     }
 
-
     public static String generateStringFromResource(String path) throws IOException {
         return new String(Files.readAllBytes(Paths.get(path)));
     }
