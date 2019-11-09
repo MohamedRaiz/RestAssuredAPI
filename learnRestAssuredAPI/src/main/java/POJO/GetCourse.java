@@ -7,7 +7,7 @@ public class GetCourse {
     private String expertise;
     private Courses courses;
     private String instructor;
-    private String linkedin;
+    private String linkedIn;
 
     public String getUrl() {
         return url;
@@ -49,11 +49,11 @@ public class GetCourse {
         this.instructor = instructor;
     }
 
-    public String getLinkedin() {
-        return linkedin;
+    public String getLinkedIn() {
+        return linkedIn;
     }
 
-    public void setLinkedin(String linkedin) {
-        this.linkedin = linkedin;
+    public void setLinkedIn(String linkedIn) {
+        this.linkedIn = linkedIn;
     }
 }

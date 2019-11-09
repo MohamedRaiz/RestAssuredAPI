@@ -1,5 +1,7 @@
 package learningRestAssured;
 
+import POJO.GetCourse;
+import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -44,12 +46,12 @@ public class oAuthTest {
         String accessToken = jsonPath.get("access_token");
 
 
-        String response = given().queryParam("access_token",accessToken).
-                when().log().all().
-                get("https://rahulshettyacademy.com/getCourse.php").asString();
+        GetCourse response = given().queryParam("access_token",accessToken).expect().defaultParser(Parser.JSON).
+                when().
+                get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);
 
-        System.out.println(response);
-
+        System.out.println(response.getCourses());
+        System.out.println(response.getInstructor());
     }
 
 }
