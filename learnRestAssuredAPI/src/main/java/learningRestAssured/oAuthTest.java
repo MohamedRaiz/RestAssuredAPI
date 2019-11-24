@@ -1,14 +1,17 @@
 package learningRestAssured;
 
-import POJO.API;
 import POJO.GetCourse;
+import POJO.WebAutomation;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
@@ -17,6 +20,7 @@ public class oAuthTest {
 
     public static void main(String[] args) throws InterruptedException {
 
+        String[] courseTitle = {"Selenium Webdriver Java", "Cypress", "Protractor"};
         //First step for Selenium
         System.setProperty("webdriver.chrome.driver","../../../../../../usr/local/bin/chromedriver");
         WebDriver driver = new ChromeDriver();
@@ -56,14 +60,16 @@ public class oAuthTest {
         System.out.println(response.getLinkedIn());
         System.out.println(response.getInstructor());
 
-        List<API> apiCourses = response.getCourses().getApi();
-        for(int i=0; i<apiCourses.size(); i++) {
-            if(apiCourses.get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing")){
-                System.out.println((apiCourses.get(i).getCourseTitle()));
-                System.out.println(apiCourses.get(i).getPrice());
-            }
-
+        ArrayList<String> a = new ArrayList<>();
+        List<WebAutomation> webAutomation = response.getCourses().getWebAutomation();
+        for(int i=0; i<webAutomation.size(); i++) {
+            a.add(webAutomation.get(i).getCourseTitle());
         }
+        List<String> expectedList = Arrays.asList(courseTitle);
+
+        //This assertion is from TestNg
+        Assert.assertTrue(a.equals(expectedList));
+
     }
 
 }
