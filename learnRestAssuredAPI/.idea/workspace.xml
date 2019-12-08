@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="bd431962-432b-4a52-83cd-b52f9e6590c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Mavenjava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mavenjava/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mavenjava/src/test/java/qaclickacademy/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/Suite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/Suite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/junitreports/TEST-qaclickacademy.AppiumTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/junitreports/TEST-qaclickacademy.AppiumTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/junitreports/TEST-qaclickacademy.RestApiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/junitreports/TEST-qaclickacademy.RestApiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/junitreports/TEST-qaclickacademy.SeleniumTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/junitreports/TEST-qaclickacademy.SeleniumTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mavenjava/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
