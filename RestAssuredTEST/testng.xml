@@ -1,0 +1,14 @@
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="qaclickacademy.basics"/>
+            <class name="qaclickacademy.basicsPost"/>
+            <class name="qaclickacademy.basicsPostPart2"/>
+            <class name="qaclickacademy.basics4XMLResponse"/>
+            <class name="qaclickacademy.basics5MoreOnExtractingJson"/>
+            <class name="qaclickacademy.basics6JiraAPI"/>
+            <class name="qaclickacademy.basics7JiraAddingComments"/>
+            <class name="qaclickacademy.basics8JiraUpdateComments"/>
+        </classes>
+    </test>
+</suite>
