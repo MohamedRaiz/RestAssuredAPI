@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee445f76-0094-48d8-b69b-64a5f63e1871" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/ReusableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/qaclickacademy/basics7JiraAddingComments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qaclickacademy/basics7JiraAddingComments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/qaclickacademy/basics8JiraUpdateComments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qaclickacademy/basics8JiraUpdateComments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atlassian-jira-software-8.4.1-standalone/logs/catalina.out" beforeDir="false" afterPath="$PROJECT_DIR$/../atlassian-jira-software-8.4.1-standalone/logs/catalina.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atlassian-jira-software-8.4.1-standalone/work/catalina.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../atlassian-jira-software-8.4.1-standalone/work/catalina.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learnRestAssuredAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learnRestAssuredAPI/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ee445f76-0094-48d8-b69b-64a5f63e1871" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577849203392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577849224224" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -363,7 +355,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
