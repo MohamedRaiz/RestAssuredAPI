@@ -1,5 +1,7 @@
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -16,9 +18,9 @@ public class dataDrivenTest {
     //Once column has been identified, we then scan the entire testcase column to identify purchase testcase row.
     //Once we get that, put all the data of that row and feed it into test
 
-    public void getData(String testCaseName) throws IOException {
+    public ArrayList<String> getData(String testCaseName) throws IOException {
         //fileInputStream Argument
-        ArrayList<String> a = new ArrayList<String>();
+        ArrayList<String> a = new ArrayList<>();
         FileInputStream fis = new FileInputStream(".//ExampleData.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
@@ -67,12 +69,23 @@ public class dataDrivenTest {
                         //would need to iterate the cells. this can be done via:
                         Iterator<Cell> cellValuesWanted = nextRow.cellIterator();
                         while(cellValuesWanted.hasNext()){
-                            a.add(cellValuesWanted.next().getStringCellValue());
+                            Cell nextValue = cellValuesWanted.next();
+                            if (nextValue.getCellTypeEnum() == CellType.STRING) {
+                                a.add(cellValuesWanted.next().getStringCellValue());
+
+                            } else {
+                                String textNumericValue = NumberToTextConverter.toText(cellValuesWanted.next().getNumericCellValue());
+                                a.add(textNumericValue);
+                            }
+
+
+
                         }
                     }
                 }
             }
         }
+        return a;
     }
 
     public static void main(String[] args) {
